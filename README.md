@@ -41,7 +41,7 @@
 - Clone the repo
 
 ```shell
-https://github.com/FireRedTeam/FireRedTTS.git
+git clone https://github.com/FireRedTeam/FireRedTTS.git
 cd FireRedTTS
 ```
 
@@ -95,7 +95,7 @@ torchaudio.save(out_wav_path, rec_wavs, 24000)
 
 ## Tips
 
-- Removing the long silence (>1s) in the middle of prompt_wav may bring better stability. If there are too many long silences in your prompt_wav and it causes stability problems, it is recommended to use our tool(`tools/process_prompts.py`) to remove the silence.
+- Removing the long silence (>1s) in the middle of prompt_wav may improve stability. If your prompt_wav has too many long silences that cause stability problems, it is recommended that you use our tool(`tools/process_prompts.py`) to remove them.
 
 ## Acknowledgements
 
