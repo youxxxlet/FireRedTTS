@@ -95,7 +95,7 @@ torchaudio.save(out_wav_path, rec_wavs, 24000)
 
 ## Tips
 
-Removing the long silence (>1s) in the middle of prompt_wav may improve stability. If your prompt_wav has too many long silences that cause stability problems, it is recommended that you use our tool(`tools/process_prompts.py`) to remove them.
+- Removing the long silence (>1s) in the middle of prompt_wav may improve stability. If your prompt_wav has too many long silences that cause stability problems, it is recommended that you use our tool(`tools/process_prompts.py`) to remove them.
 
 ## Acknowledgements
 
